@@ -1,72 +1,84 @@
 # ExirMatab Documentation
 
-
+This repository contains the organized documentation for the ExirMatab software, a comprehensive tool for managing medical clinics and offices. The content has been cleaned from redundant sections and structured into folders based on main headings.
 
 ## Table of Contents
 
-- [ExirMatab](exirmatab/README.md)
-- [درباره نرمافزار](About_Software/README.md)
-- [ویژگیهای نرم افزار](Software_Features/README.md)
-- [منابع سخت افزاری مورد نیاز](Hardware_Requirements/README.md)
-- [مراحل نصب](Installation_Steps/README.md)
-- [نصب و راهاندازی (نسخه دمو)](Installation_Demo/README.md)
-- [فعالسازی و ثبتنام](Activation_Registration/README.md)
-- [تنظیمات اولیه](Initial_Setup/README.md)
-- [شروع به کار](Getting_Started/README.md)
-- [مرور رابط کاربری](UI_Overview/README.md)
-- [مروری بر ماژول های اولیه](mrvry_br_mazhvl_hay_avlyh/README.md)
-- [ویژگیها و قابلیتها](vyzhgyha_v_ghablytha/README.md)
-- [پشتیبانگیری و بازگردانی](pshtybangyry_v_bazgrdany/README.md)
-- [ماژول ها](mazhvl_ha/README.md)
-- [ماژول بخش ویزیت](mazhvl_bkhsh_vyzyt/README.md)
-- [ماژول قلم نوری](mazhvl_ghlm_nvry/README.md)
-- [ماژول نوبت دهی آنلاین](mazhvl_nvbt_dhy_anlayn/README.md)
-- [# # # # امکانات اکسیر نوبت:](amkanat_aksyr_nvbt/README.md)
-- [ماژول مدارک](mazhvl_mdark/README.md)
-- [ماژول فرم ساز](mazhvl_frm_saz/README.md)
-- [ماژول اکوکاردیوگرافی](mazhvl_akvkardyvgrafy/README.md)
-- [ماژول چک لیست](mazhvl_chk_lyst/README.md)
-- [ماژول منحنی دور سر](mazhvl_mnhny_dvr_sr/README.md)
-- [تخصص ها](tkhss_ha/README.md)
-- [کودکان](kvdkan/README.md)
-- [# # # # **ماژول منحنی دور سر](mazhvl_mnhny_dvr_sr/README.md)
-- [# # # # **ماژول قلم نوری](mazhvl_ghlm_nvry/README.md)
-- [# # # # **ماژول مدارک](mazhvl_mdark/README.md)
-- [# # # # [![ماژول مدارک.png](http://support.exirmatab.com:6875/uploads/images/gallery/2025-11/scaled-1680-/4Eimazhol-mdark.png)](http://support.exirmatab.com:6875/uploads/images/gallery/2025-11/4Eimazhol-mdark.png)](mazhvl_mdarkpnghttp_supportexirmatabcom6875_uploads_images_gallery_2025_11_scaled_1680_4eimazhol_mdarkpnghttp_supportexirmatabcom6875_uploads_images_gallery_2025_11_4eimazhol_mdarkpng/README.md)
-- [ارتوپد](artvpd/README.md)
-- [# # # #](section/README.md)
-- [# # # # **ماژول قلم نوری](mazhvl_ghlm_nvry/README.md)
-- [# # # #](section/README.md)
-- [# # # # **ماژول انبارداری](mazhvl_anbardary/README.md)
-- [# # # # سایر امکانات نرم افزار:](sayr_amkanat_nrm_afzar/README.md)
-- [طب سنتی](tb_snty/README.md)
-- [# # # # **ماژول پیامک](mazhvl_pyamk/README.md)
-- [# # # # **ماژول انبارداری](mazhvl_anbardary/README.md)
-- [# # # # ![تصویر ماژول فروش کالا در صفحه طب سنتی.png](http://support.exirmatab.com:6875/uploads/images/gallery/2025-11/scaled-1680-/tsoyr-mazhol-frosh-kala-dr-sfhh-tb-snty.png)](tsvyr_mazhvl_frvsh_kala_dr_sfhh_tb_sntypnghttp_supportexirmatabcom6875_uploads_images_gallery_2025_11_scaled_1680_tsoyr_mazhol_frosh_kala_dr_sfhh_tb_sntypng/README.md)
-- [# # # # **سایر امکانات نرم افزار:](sayr_amkanat_nrm_afzar/README.md)
-- [غدد و رژیم درمانی](ghdd_v_rzhym_drmany/README.md)
-- [# # # # **ماژول منحنی رشد](mazhvl_mnhny_rshd/README.md)
-- [# # # # **ماژول چک لیست](mazhvl_chk_lyst/README.md)
-- [# # # # **ماژول قلم نوری](mazhvl_ghlm_nvry/README.md)
-- [# # # # **سایر امکانات نرم افزار:](sayr_amkanat_nrm_afzar/README.md)
-- [زنان و زایمان](znan_v_zayman/README.md)
-- [# # # # **ماژول چک لیست](mazhvl_chk_lyst/README.md)
-- [# # # # **ماژول قلم نوری](mazhvl_ghlm_nvry/README.md)
-- [# # # # **ماژول پیامک](mazhvl_pyamk/README.md)
-- [# # # # **سایر امکانات نرم افزار:](sayr_amkanat_nrm_afzar/README.md)
-- [قلب و عروق](ghlb_v_arvgh/README.md)
-- [# # # # **ماژول اکوکاردیوگرافی](mazhvl_akvkardyvgrafy/README.md)
-- [# # # # **ماژول مدارک](mazhvl_mdark/README.md)
-- [# # # # **ماژول قلم نوری](mazhvl_ghlm_nvry/README.md)
-- [# # # # **سایر امکانات نرم افزار:](sayr_amkanat_nrm_afzar/README.md)
-- [چشم پزشکی](chshm_pzshky/README.md)
-- [# # # # **ماژول قلم نوری](mazhvl_ghlm_nvry/README.md)
-- [# # # # **ماژول مدارک](mazhvl_mdark/README.md)
-- [# # # # **سایر امکانات نرم افزار:](sayr_amkanat_nrm_afzar/README.md)
-- [نرم افزار مدیریت درمانگاه](nrm_afzar_mdyryt_drmangah/README.md)
-- [# # # # **ماژول گزارشات](mazhvl_gzarshat/README.md)
-- [# # # # **ماژول نوبت دهی آنلاین](mazhvl_nvbt_dhy_anlayn/README.md)
-- [# # # # **سایر امکانات نرم افزار:](sayr_amkanat_nrm_afzar/README.md)
-- [عیبیابی](aybyaby/README.md)
-- [خطاها و عیبیابی](khtaha_v_aybyaby/README.md)
-- [سوالات متداول](svalat_mtdavl/README.md)
+- [About Software](./about-software/README.md)
+- [Software Features](./software-features/README.md)
+- [Hardware Requirements](./hardware-requirements/README.md)
+- [Installation Steps](./installation-steps/README.md)
+- [Demo Installation](./demo-installation/README.md)
+- [Activation and Registration](./activation-and-registration/README.md)
+- [Initial Settings](./initial-settings/README.md)
+- [Getting Started](./getting-started/README.md)
+- [User Interface Overview](./user-interface-overview/README.md)
+- [Initial Modules Overview](./initial-modules-overview/README.md)
+- [Features and Capabilities](./features-and-capabilities/README.md)
+- [Backup and Restore](./backup-and-restore/README.md)
+- [Modules](./modules/README.md)
+  - [Visit Section](./modules/visit-section/README.md)
+  - [Light Pen](./modules/light-pen/README.md)
+  - [Online Appointment](./modules/online-appointment/README.md)
+  - [Documents](./modules/documents/README.md)
+  - [Form Builder](./modules/form-builder/README.md)
+  - [Echocardiography](./modules/echocardiography/README.md)
+  - [Checklist](./modules/checklist/README.md)
+  - [Head Circumference Curve](./modules/head-circumference-curve/README.md)
+- [Specialties](./specialties/README.md)
+  - [Pediatrics](./specialties/pediatrics/README.md)
+  - [Orthopedics](./specialties/orthopedics/README.md)
+  - [Traditional Medicine](./specialties/traditional-medicine/README.md)
+  - [Endocrinology and Diet Therapy](./specialties/endocrinology-and-diet-therapy/README.md)
+  - [Obstetrics and Gynecology](./specialties/obstetrics-and-gynecology/README.md)
+  - [Cardiology](./specialties/cardiology/README.md)
+  - [Ophthalmology](./specialties/ophthalmology/README.md)
+- [Troubleshooting](./troubleshooting/README.md)
+  - [Errors and Troubleshooting](./troubleshooting/errors-and-troubleshooting/README.md)
+  - [FAQs](./troubleshooting/faqs/README.md)
+
+
+
+# Clinic Management Software
+
+نرم افزار درمانگاه اکسیر با هدف مدیریت مراکز درمانی طراحی گردیده است. از آنجا که بخش‌های مختلف در درمانگاه وجود دارد و فعالیت‌های گسترده‌ای در این مراکز انجام می‌شود نرم افزار درمانگاه به منظور سهولت کار مدیران این مراکز کارایی بسیاری دارد. مسائلی از قبیل  پذیرش، مشکلات مالی، نحوه تسویه حساب بیماران در این مراکز اهمیت ویژه‌ای دارد.
+سیستم پذیرش درمانگاه اکسیر با قابلیت استحقاق سنجی بیمه‌ها، فرآیند پذیرش را بسیار ساده نموده است و در حداقل زمان انجام می‌گیرد. امکان ثبت بیمه بیماران و محاسبه فرانشیز به سادگی انجام می شود.
+تسویه حساب مالی مراجعین و پرداخت اقساطی از امکانات نسخه درمانگاه اکسیر است. همچنین نرم افزار به درگاه‌های پرداخت متصل بوده و امکان دریافت هزینه از طریق پی سی پوز وجود دارد. این قابلیت با توجه به حجم بالای مراجعین و تعدد پرداخت‌ها در این مراکز اهمیت فوق العاده‌ای دارد.
+امکان تعریف کاربران مختلف با توجه به وجود شیفت‌های کاری متفاوت از موارد مورد نیاز این مراکز می باشد. همچنین امکان دریافت گزارش‌های مالی مختلف بر اساس کاربر وجود دارد.
+امکان تعریف پزشکان مختلف با توجه به وجود بخش‌های مختلف و پزشکان متعدد در نسخه درمانگاه اکسیر وجود دارد.
+همچنین در نسخه درمانگاه اکسیر می‌توانید برای پزشک، دستیار و معرف درصد تعریف کنید و به این ترتیب در پایان ماه به سادگی امکان محاسبه درآمد پزشکان و دستیاران مجموعه را خواهید داشت.
+
+ماژول گزارشات
+دریافت گزارش های مختلف پذیرش از جمله امکانات مورد نیاز در مطب و کلینیک می باشد که در نرم افزار اکسیر فراهم آمده است. گزارش های مختلف اعم از پرینت کامل پذیرش، پرینت خلاصه پذیرش بدون ذکر مشخصات بیمار بر اساس بازه های زمانی مختلف، به تفکیک سرویس، پزشک و نوع بیمه قابل دریافت می باشد.
+در نرم افزار مدیریت مطب اکسیر امکان محاسبه درصد همکاری پزشک یا دستیار وجود دارد. در واقع پس از ثبت دستیار و پزشک در نرم افزار و تعیین میزان درصد همکاری هر یک، امکان دریافت گزارش بر اساس بازه زمانی مورد نظر و به تفکیک پزشک و دستیار ایجاد خواهد شد و شما پزشکان عزیز و سرمایه گذاران محترم مراکز درمانی میتوانید از ماژول گزارشات اکسیر به منظور محاسبه درآمد افراد فعال در مجموعه استفاده کنید.
+در ماژول گزارشات میتوان بر اساس داده های پرونده خروجی تحقیقاتی excel دریافت و بر مبنای نیاز خود اطلاعات را sort نمود که بسیار مفید و کاربردی می باشد
+همچنین امکان مشاهده نحوه پرداخت ( کارت، نقد و … ) وجود دارد.
+دریافت پرینت و ذخیره گزارشات در فرمت pdf و excel از دیگر امکانات این ماژول می باشد.
+
+ماژول نوبت دهی آنلاین
+
+با توجه به اینکه مراجعه حضوری به مطب ها و مراکز درمانی جهت دریافت نوبت اغلب چالشهایی هم برای بیماران و هم برای مطب ها وجود دارد و به مانند سایر کسب و کارهای اینترنتی، سایت های نوبت دهی اینترنتی با هدف ارائه نوبت به بیماران و مراجعه کنندگان راه اندازی گردید. ازدحام جمعیت در مطب یا بی‌توجهی به زمان انتظار مراجعین اغلب با نارضایتی و عدم مراجعه مجدد بیماران همراه بود اما راه اندازی سامانه های نوبت دهی اینترنتی پزشکان توانست کمک بسیار مهمی در این زمینه به این قشر فرزانه نماید.
+سیستم نوبت دهی آنلاین به صورت کاملا هوشمند عمل می‌کند و امکان بروز خطای انسانی در آن به صفر می‌رسد. در سیستم‌های سنتی و دستی ثبت نوبت، این امکان وجود دارد که یک زمان به اشتباه برای دو مراجعه کننده ثبت شود یا اینکه در روزهای نامناسب، وقت مراجعه داده شود اما سیستم نوبت دهی بسیار دقیق است و مخاطب نمی‌تواند یک نوبت را برای دونفر ثبت کند.
+سامانه نوبت دهی آنلاین اکسیر این امکان را برای مراجعین فراهم می کند تا از طریق آن بتوانند نوبت های خود را ثبت نمایند.
+مراجعین پس از ورود به صفحه نوبت دهی آنلاین می توانند زمانهای حضور در مجموعه را مشاهده نموده و در روز و زمان موردنظر نوبت خود را ثبت نمایند.
+با استفاده از این امکان می توانند مجموعه خود را بهتر مدیریت نمایند و برنامه کاری خود را تنظیم نمایند و از آنجا که در نوبت دهی آنلاین زمان‌های آزاد به صورت خودکار نمایش داده می شود خطای ثبت نوبت دوباره یا اشتباه در تاریخ و ساعت اتفاق نمی افتد.
+همچنین امکان ثبت نوبت با استفاده از سیستم های آنلاین محدود به زمان خاصی نیست و همیشه در دسترس است و مراجعین می‌توانند در هر زمان نوبت بگیرند.
+امکانات اکسیر نوبت:
+۱- امکان مشاهده نوبت های ثبت شده در نرم افزار ویندوزی
+۲- امکان تعیین برنامه کاری در روزهای متفاوت و زمان های متغیر
+۳- امکان مشخص نمودن فاصله زمانی بین هر نوبت حتی به طور متغیر
+۴- امکان ثبت روزهای مرخصی یا تعطیلات و در صورت نیاز تغییر آنها
+۵- نمایش یا عدم نمایش تعطیلات رسمی در نوبت دهی به دلخواه
+۶- ارسال پیامک ثبت نوبت بعد از رزرو و همچنین پیامک لغو نوبت
+۷- تعیین بازه زمانی مشخص برای دریافت نوبت و مسدود نمودن نوبت ها
+۸- امکان تعریف فیلدهای اختصاصی در هنگام ثبت نوبت و نمایش آنها در ماژول ویندوزی نوبت دهی
+۹- امکان یادداشت متن های سفارشی یا پیام در صفحه نوبت دهی
+۱۰- امکان فعال سازی ورود دو مرحله ای
+
+سایر امکانات نرم افزار:
+۱- اتصال به PCPOS
+۲- استحقاق سنجی پذیرش
+۳- فراخوان تصویری نوبت
+۴- پیامک
+۵- ماژول بخش ویزیت
+۶- ماژول قلم نوری
